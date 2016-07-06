@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<package name="cn.hywu.vo"/>
+	</typeAliases>
+	<mappers>
+	<!-- 所有mapper文件填写位置 -->
+		<mapper resource="cn/hywu/vo/headline.mapper.xml" />
+		<mapper resource="cn/hywu/vo/product.mapper.xml"/>
+		<mapper resource="cn/hywu/vo/market.mapper.xml"/>
+		<mapper resource="cn/hywu/vo/user.mapper.xml"/>
+		<mapper resource="cn/hywu/vo/info.mapper.xml"/>
+	</mappers>
+</configuration>
